@@ -1,12 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import List from './src/components/List';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-  );
+
+class App extends Component {
+
+    constructor(){
+      super();
+      this.state = {
+        greeting: 'Welcome to react native'
+      }
+    }
+
+    componentDidMount(){
+      
+    }
+
+  render() {
+    return (
+      <List />
+    )
+  }
 }
 
 const styles = StyleSheet.create({
@@ -17,3 +31,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default App;
