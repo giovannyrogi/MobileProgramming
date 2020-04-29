@@ -1,25 +1,22 @@
 import React from 'react';
-import { View, Text, FlatList, Image } from 'react-native';
+import { View, Text, FlatList } from 'react-native';
 
 class List extends React.Component{
     constructor() {
         super();
         this.state = {
-            users: [],
+            global: [],
             refreshing: false
         }
     }
 
     renderItem = ({ item }) => (
         
-        <View style={{ flex: 1, flexDirection: 'row', padding: 20, borderBottomWidth: 1, borderBottomColor: '#000',}}>
-            <Image
-                source={{uri: `https://robohash.org/${item.id}?set=set1`}}
-                style={{ width: 50, height: 50 }}
-            />
+        <View style={{ padding: 20, borderBottomWidth: 1, borderBottomColor: '#000',}}>
             <View>
-                <Text>Name: {item.name}</Text>
-                <Text>Username: {item.username}</Text>
+                <Text>Confirmed: {item.confirmed}</Text>
+                <Text>Recovered: {item.recovered}</Text>
+                <Text>Deaths: {item.deaths}</Text>
             </View>
             
         </View>
@@ -36,9 +33,9 @@ class List extends React.Component{
     getDataApi = async () => {
         this.setState({ refreshing: true})
 
-        const response = await fetch('http://jsonplaceholder.typicode.com/users');
+        const response = await fetch('https://covid19.mathdro.id/api');
         const json = await response.json();
-        this.setState({ users: json, refreshing: false})
+        this.setState({ global: json, refreshing: false})
     }
 
     render(){
@@ -46,8 +43,7 @@ class List extends React.Component{
         return(
             <View>
                 <FlatList
-                    data={this.state.users}
-                    keyExtractor={item => item.id.toString()}
+                    data={this.state.global}
                     renderItem={this.renderItem}
                     refreshing={this.state.refreshing}
                     onRefresh={this.onRefresh}
