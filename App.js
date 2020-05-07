@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Greeting from './src/components/Greeting';
-import Layout from './src/components/Layout';
-import List from './src/components/List';
+import GlobalApi from './src/components/GlobalApi';
+import ApiIndoProvinsi from './src/components/ApiIndoProvinsi';
+
 
 class App extends Component {
   
@@ -19,7 +19,11 @@ class App extends Component {
 
   render() {
     return (
-      <List />
+      <View>
+        <GlobalApi />
+        <ApiIndoProvinsi />
+      </View>
+      
     )
   }
 }
