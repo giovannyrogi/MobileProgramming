@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { View, Text, Image, StyleSheet, FlatList } from 'react-native';
-import { TextInput, ScrollView } from 'react-native-gesture-handler';
+import { View, Text, Image, StyleSheet, FlatList, ImageBackground } from 'react-native';
+import { TextInput, ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
 import SearchFeature from '../../../components/SearchFeature';
+import { header1, header2, header3 } from '../../../../assets';
 
 class DataIndonesia extends Component {
     constructor(){
@@ -56,7 +57,7 @@ class DataIndonesia extends Component {
 
     renderItem = ({ item }) => (
         <View style={styles.containerDataProvinsi}>
-        
+            
             <View style={styles.containerlabelProvinsi}>
               <Text style={styles.textLabelProvisi}>{item.provinsi}</Text>
             </View>
@@ -65,10 +66,12 @@ class DataIndonesia extends Component {
                 <Text style={styles.textDataSembuh}>{item.kasusSemb}</Text>
                 <Text style={styles.textDataMeninggal}>{item.kasusMeni}</Text>
             </View>
-          
+           
         </View> 
         
     )
+
+
 
 
     render() {
@@ -85,8 +88,9 @@ class DataIndonesia extends Component {
             return <Text style={styles.textLoading}>Loading...</Text>
         }
         return (
-            <View>
+          <ImageBackground source={header3} style={{width: '100%', height: 500}}>
                 {/* Bagian Search Bar */}
+                
                 <SearchFeature />
                 {/* Bagian Data Covid-19 Indonesia Keseluruhan*/}
                 <View style={styles.containerDataIndo}>
@@ -107,6 +111,7 @@ class DataIndonesia extends Component {
                             <Text style={styles.dataMeninggal}>{this.state.dataApiKeseluruhan.meninggal}</Text>
                         </View>
                     </View>
+                  
                     {/* Bagian Data Covid-19 Indonesia Berdasarkan Provinsi */}
                     <View>
                       {/* Sub Judul Data Provinsi */}
@@ -118,6 +123,7 @@ class DataIndonesia extends Component {
                         <Text style={styles.indikatorSembuh}>Sembuh</Text>
                         <Text style={styles.indikatorMeninggal}>Meninggal</Text>
                       </View>
+                      
                       <View style={styles.containerPembatas}></View>
                       
                       <FlatList
@@ -127,6 +133,7 @@ class DataIndonesia extends Component {
                               refreshing={this.state.refreshing}
                               onRefresh={this.onRefresh}
                               showsVerticalScrollIndicator={false}
+                              
                           />
                           
                     </View>
@@ -134,7 +141,7 @@ class DataIndonesia extends Component {
                 </View>
                 
                 
-            </View>
+            </ImageBackground>
         )
     }
 }

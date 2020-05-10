@@ -8,10 +8,16 @@ import { Splash } from '../containers/Pages';
 import { Home } from '../containers/Pages';
 import { DataGlobal } from '../containers/Pages';
 import { DataIndonesia } from '../containers/Pages';
-import { ScreenStackHeaderCenterView } from 'react-native-screens';
 
 const Stack = createStackNavigator();
 
+const myOptions =  {
+    title: 'Global',
+    headerTintColor: 'black',
+    headerStyle:{
+        backgroundColor:  'white'    //'#663399'
+    }
+}
 
 const Router = () => {
     return(
@@ -34,17 +40,12 @@ const Router = () => {
             <Stack.Screen 
                 name="DataGlobal" 
                 component={DataGlobal}
-                options={{
-                    title: 'Data Global'
-                }}
+                options={{...myOptions, title: "Global"}}
             />
             <Stack.Screen 
                 name="DataIndonesia" 
                 component={DataIndonesia} 
-                options={{
-                    title: "Data Indonesia"
-                    
-                }}    
+                options={{...myOptions, title: "Indonesia"}}    
             />
         </Stack.Navigator>
         </NavigationContainer>

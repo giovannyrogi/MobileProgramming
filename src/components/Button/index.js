@@ -23,13 +23,13 @@ const styles = StyleSheet.create({
         maxWidth: 225, 
     },
     button:{
-        backgroundColor: '#A55EEA',
+        backgroundColor: '#663399',
         borderRadius: 25,
         marginBottom: 15,
         paddingVertical: 13,
     },
     textButton:{
-        fontSize: 12,
+        fontSize: 15,
         fontWeight: 'bold',
         color: 'white',
         textTransform: 'uppercase',

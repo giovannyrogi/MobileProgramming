@@ -1,8 +1,8 @@
 import React from 'react';
-import {StyleSheet, Text, View, StatusBar, Image} from 'react-native';
+import {StyleSheet, Text, View, StatusBar, Image, ImageBackground} from 'react-native';
 
 import ActionButton from './ActionButton'
-import { homeImg1, homeImg2, homeImg3, homeImg4, homeImg5 } from '../../../../assets';
+import { homeImg1, homeImg2, homeImg3, homeImg4, homeImg5, header1 } from '../../../../assets';
 
 
 const Home = ({navigation}) => {
@@ -16,22 +16,23 @@ const Home = ({navigation}) => {
                 <StatusBar barStyle="light-content" backgroundColor="#808080"/>
             </View>
             {/* Content */}
-            <View style={styles.containerContent}>
-                <Image source={homeImg5} style={styles.containerImg}/>
-                <View>
-                    <Text style={styles.textJudul}>Aplikasi Covid19 Tracker</Text>
+                <View style={styles.containerContent}>
                     
-                    <ActionButton 
-                        title="Data Global" 
-                        onPress={() => handleGoTo('DataGlobal')}
-                    />
-                    <ActionButton 
-                        title="Data Indonesia" 
-                        onPress={() => handleGoTo('DataIndonesia')}
-                    />
+                    <Image source={homeImg5} style={styles.containerImg}/>
+                    <View>
+                        <Text style={styles.textJudul}>Aplikasi Covid19 Tracker</Text>
+                        
+                        <ActionButton 
+                            title="Global" 
+                            onPress={() => handleGoTo('DataGlobal')}
+                        />
+                        <ActionButton 
+                            title="Indonesia" 
+                            onPress={() => handleGoTo('DataIndonesia')}
+                        />
+                    </View>
+    
                 </View>
-   
-            </View>
         </View>
     )
 };
@@ -57,7 +58,7 @@ const styles = StyleSheet.create({
     },
     textJudul:{
         top: 10,
-        fontSize: 18,
+        fontSize: 20,
         fontWeight: 'bold',
         color: 'purple',
         marginBottom: 120,
