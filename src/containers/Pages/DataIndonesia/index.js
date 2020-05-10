@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { View, Text, Image, StyleSheet, FlatList } from 'react-native';
 import { TextInput, ScrollView } from 'react-native-gesture-handler';
 import SearchFeature from '../../../components/SearchFeature';
-import BottomNavBar from '../../../components/BottomNavBar';
 
 class DataIndonesia extends Component {
     constructor(){
