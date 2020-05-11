@@ -10,6 +10,11 @@
   <img src="https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/indonesiascreen.jpg" width="200" />
 </p>
 
+## API yang digunakan :
+* API Data Covid-19 Global : https://covid19.mathdro.id/api
+* API Data Covid-19 Indonesia : https://indonesia-covid-19.mathdro.id/api
+* API Data Covid-19 Indonesia Per-provinsi : https://indonesia-covid-19.mathdro.id/api/provinsi
+
 <br></br>
 ### Aplikasi Ini dibuat menggunakan :
 * <strong>Expo Version    : 3.20.3</strong>
