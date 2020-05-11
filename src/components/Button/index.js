@@ -19,14 +19,14 @@ export default Button;
 const styles = StyleSheet.create({
    
     containerButton:{
-        marginBottom: 43, 
-        maxWidth: 225, 
+        marginBottom: 60, 
+        maxWidth: 300, 
     },
     button:{
         backgroundColor: '#663399',
         borderRadius: 25,
-        marginBottom: 15,
         paddingVertical: 13,
+        width: 240,
     },
     textButton:{
         fontSize: 15,

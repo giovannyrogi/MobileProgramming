@@ -15,7 +15,6 @@ import worldmap2 from './Icon/worldmap2.png'
 import worldmap3 from './Icon/worldmap3.png'
 import worldmap4 from './Icon/worldmap4.png'
 
-
 export { homeImg1, homeImg2, homeImg3, homeImg4, homeImg5, header1,
     header2,
     header3,

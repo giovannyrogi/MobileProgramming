@@ -20,17 +20,18 @@ const Home = ({navigation}) => {
                     
                     <Image source={homeImg5} style={styles.containerImg}/>
                     <View>
-                        <Text style={styles.textJudul}>Aplikasi Covid19 Tracker</Text>
-                        
-                        <ActionButton 
-                            title="Global" 
-                            onPress={() => handleGoTo('DataGlobal')}
-                        />
-                        <ActionButton 
-                            title="Indonesia" 
-                            onPress={() => handleGoTo('DataIndonesia')}
-                        />
+                        <Text style={styles.textJudul}>Data Covid-19</Text>
+                        <Text style={styles.textJudul}>Global & Indonesia</Text>
+                        <View style={styles.saparator}></View>
                     </View>
+                    <ActionButton 
+                        title="Global" 
+                        onPress={() => handleGoTo('DataGlobal')}
+                    />
+                    <ActionButton 
+                        title="Indonesia" 
+                        onPress={() => handleGoTo('DataIndonesia')}
+                    />
     
                 </View>
         </View>
@@ -57,12 +58,15 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
     },
     textJudul:{
+        textAlign: 'center',
         top: 10,
         fontSize: 20,
         fontWeight: 'bold',
         color: 'purple',
-        marginBottom: 120,
     },
-
+    saparator:{
+        backgroundColor: 'white',
+        marginBottom: 80,
+    }, 
     
   })
