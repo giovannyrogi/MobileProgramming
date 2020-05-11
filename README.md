@@ -1,10 +1,11 @@
 # Aplikasi Untuk Menampilkan Data Covid-19 Global dan Indonesia.
 
-## Aplikasi Ini dibuat menggunakan :
+### Aplikasi Ini dibuat menggunakan :
 * Expo Version    : 3.20.3
 * NodeJs Version  : 12.16.1
 * NPM Version     : 6.13.4
-* Dependencies :
+* Git Version     : 2.26.2 Windows 10
+* Dependencies    :
 <br></br>
 ![](https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/dependencies.png)
 <br></br>
