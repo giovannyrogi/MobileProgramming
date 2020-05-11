@@ -33,8 +33,13 @@ const Home = ({navigation}) => {
                         title="Indonesia" 
                         onPress={() => handleGoTo('DataIndonesia')}
                     />
-    
+                    
                 </View>
+                <View style={styles.containerInfoApp}>
+                    <Text style={styles.textInfo}>Develop by : Giovanny</Text>
+                    <Text style={styles.textInfo}>Version : 1.0.0</Text>
+                </View>
+                
         </View>
     )
 };
@@ -68,5 +73,17 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         marginBottom: 80,
     }, 
-    
+    containerInfoApp:{
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        backgroundColor: 'white',
+        paddingHorizontal: 10,
+        paddingBottom: 8,
+    },  
+    textInfo:{
+        color: '#000080',
+        fontWeight: '600',
+        fontSize: 12,
+        letterSpacing: 1,
+    }
   })

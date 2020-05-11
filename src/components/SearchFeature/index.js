@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, TextInput, Image, StyleSheet, FlatList, Text} from 'react-native';
+import { Image, StyleSheet, TextInput, View } from 'react-native';
 
 
 const SearchFeature = () => {  

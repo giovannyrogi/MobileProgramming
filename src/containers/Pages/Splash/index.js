@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
-import { AppLoading } from 'expo';
-import { View, Text, StyleSheet, Image} from 'react-native';
-import { homeImg5, homeImg3, homeImg4, homeImg2 } from '../../../../assets';
+import { Image, StyleSheet, Text, View } from 'react-native';
+import { homeImg2 } from '../../../../assets';
 
 
 const Splash = ({navigation}) => {
@@ -41,6 +40,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontSize: 30,
         fontWeight: '700',
-        color: 'maroon',   
+        color: 'maroon',
+        letterSpacing: 1,   
     }, 
   })

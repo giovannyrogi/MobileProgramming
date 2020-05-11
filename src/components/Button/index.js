@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
         color: 'white',
         textTransform: 'uppercase',
         textAlign: 'center',
-        
+        letterSpacing: 1.5,
     }, 
     
   })

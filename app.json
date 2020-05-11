@@ -1,17 +1,16 @@
 {
   "expo": {
-    "name": "Project",
-    "slug": "Project",
+    "name": "Covid19Tracker",
+    "slug": "Covid19Tracker",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
+    "sdkVersion": "37.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon1.png",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,8 +20,14 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "giovannyr.Covid19Tracker",
+      "versionCode": 1
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "giovannyr.Covid19Tracker",
+      "buildNumber": "1.0.0"
     }
   }
 }

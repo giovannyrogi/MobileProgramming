@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, FlatList, ImageBackground } from 'react-native';
+import { FlatList, ImageBackground, StyleSheet, Text, View } from 'react-native';
+import { header3 } from '../../../../assets';
 import SearchFeature from '../../../components/SearchFeature';
-import { header1, header2, header3 } from '../../../../assets';
 
 class DataIndonesia extends Component {
     constructor(){

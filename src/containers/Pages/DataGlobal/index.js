@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, ImageBackground} from 'react-native';
-import { header1, header2, header3, global1, global2, global3, global4, worldmap1, worldmap2, worldmap3, worldmap4 } from '../../../../assets';
+import { Image, ImageBackground, StyleSheet, Text, View } from 'react-native';
+import { global3, header1, worldmap4 } from '../../../../assets';
 
 class DataGlobal extends React.Component{
   constructor(){
