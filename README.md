@@ -1,21 +1,21 @@
 # Aplikasi Untuk Menampilkan Data Covid-19 Global dan Indonesia.
 
 ### Aplikasi Ini dibuat menggunakan :
-* Expo Version    : 3.20.3
-* NodeJs Version  : 12.16.1
-* NPM Version     : 6.13.4
-* Git Version     : 2.26.2 Windows 10
-* Visual Studio Code Version : 1.45.0 Windows 10
-* Dependencies    :
+* <strong>Expo Version    : 3.20.3</strong>
+* <strong>NodeJs Version  : 12.16.1</strong>
+* <strong>NPM Version     : 6.13.4</strong>
+* <strong>Git Version     : 2.26.2 Windows 10</strong>
+* <strong>Visual Studio Code Version : 1.45.0 Windows 10</strong>
+* <strong>Dependencies    :</strong>
 <br></br>
 ![](https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/dependencies.png)
 <br></br>
 ### Untuk dapat menjalankan Aplikasi ini, harus menginstall bahan-bahan berikut :
-* Install NodeJs  : https://nodejs.org/en/
-* Install Expo pada <i><strong>Command Prompt</strong></i> dengan perintah : <code>npm install expo-cli --global</code>
-* Install Git : https://git-scm.com/downloads
-* Install Visual Studio Code : https://code.visualstudio.com/download
-* Install Java Development Kit : https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
+* <strong>Install NodeJs  :</strong> https://nodejs.org/en/
+* <strong>Install Expo pada <i>Command Prompt</i> dengan perintah :</strong> <code>npm install expo-cli --global</code>
+* <strong>Install Git :</strong> https://git-scm.com/downloads
+* <strong>Install Visual Studio Code :</strong> https://code.visualstudio.com/download
+* <strong>Install Java Development Kit :</strong> https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
 
 <code>note : Jika Sebelumnya sudah terinstall bahan-bahan ini, maka tidak perlu melakukan proses install lagi.</code>
 <br></br>
