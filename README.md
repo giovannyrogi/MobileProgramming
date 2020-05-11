@@ -78,7 +78,7 @@
    * Jika menggunakan <i><strong>iOS Simulator</strong></i>, pilih <i><strong>Run On iOS simulator</strong></i>.
    * Untuk menggunakan <i><strong>Handphone Pribadi</strong></i>, harus mendownload aplikasi <i><strong>Expo</strong></i> di <i><strong>Google Playstore</strong></i> dan melakukan <i><strong>Scan QR Code</strong></i> yang ada pada browser lewat Aplikasi <i><strong>Expo</strong></i>.
 
-* Setelah memilih salah satu Platform, tunggu proses bundle javascript selesai dan program akan terbuka pada Platform yang dipilih. Saya menggunakan <i><strong>Emulator Android</strong></i> yang diinstall lewat <i><strong>Android Studio</strong></i>
+* Setelah memilih salah satu Platform, tunggu proses bundle javascript selesai dan program akan terbuka pada Platform yang dipilih. Saya menggunakan <i><strong>Emulator Android</strong></i> yang diinstall menggunakan <i><strong>Android Studio</strong></i>
 <br></br>
 ![](https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/done.png)
   
