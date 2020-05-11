@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',    
     }, 
     containerImg:{
+        marginTop: 80,
         height: 190,
         width: 219,
         backgroundColor: 'white',
