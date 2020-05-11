@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, Text, View, StatusBar, Image, ImageBackground} from 'react-native';
 
 import ActionButton from './ActionButton'
-import { homeImg1, homeImg2, homeImg3, homeImg4, homeImg5, header1 } from '../../../../assets';
+import { homeImg1, homeImg2, homeImg3, homeImg4, homeImg5, header1, header2, header3 } from '../../../../assets';
 
 
 const Home = ({navigation}) => {
@@ -12,6 +12,7 @@ const Home = ({navigation}) => {
     return (
         <View style={styles.container}>
             {/* Status Bar */}
+            
             <View>
                 <StatusBar barStyle="light-content" backgroundColor="#808080"/>
             </View>
@@ -43,7 +44,6 @@ export default Home;
 const styles = StyleSheet.create({
     container:{
       flex: 1,
-      backgroundColor: 'pink'
     },
     containerContent:{
         flex: 1,

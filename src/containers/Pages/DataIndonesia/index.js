@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Image, StyleSheet, FlatList, ImageBackground } from 'react-native';
-import { TextInput, ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
+import { View, Text, StyleSheet, FlatList, ImageBackground } from 'react-native';
 import SearchFeature from '../../../components/SearchFeature';
 import { header1, header2, header3 } from '../../../../assets';
 
@@ -40,6 +39,7 @@ class DataIndonesia extends Component {
             refreshing: false
         })
     }
+
 
     // Mengambil Data API Provinsi
     getDataApiProvinsi = async () => {   
@@ -159,6 +159,7 @@ const styles = StyleSheet.create({
         color: '#000080'
       },
       containerDataIndo:{
+        flex: 1,
         marginTop: 16,
         marginHorizontal: 20,
       },

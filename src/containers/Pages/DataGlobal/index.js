@@ -54,7 +54,7 @@ class DataGlobal extends React.Component{
           <View style={styles.subJudulContainer}>
             <Text style={styles.textSubJudul}> Data Global</Text>
           </View>
-          <Image source={global2} style={styles.imgIconGlobal}></Image>
+          <Image source={global3} style={styles.imgIconGlobal}></Image>
           <Text style={styles.textLastUpdate}>Last Update : {this.state.global.lastUpdate}</Text>
           
           <View style={styles.containerDataApi}>
@@ -101,15 +101,16 @@ const styles = StyleSheet.create({
     height: 350,
   },
   imgIconGlobal:{
-    width: 100, 
-    height: 100,
+    marginLeft: 30,
+    width: 130, 
+    height: 130,
   },
   subJudulContainer:{
-    marginTop: 50,
-    marginBottom: 20,
+    marginTop: 25,
+    marginBottom: 10,
   },
   textSubJudul:{
-    color: 'white',
+    color: '#EBEBEB',
     fontSize: 25,
     fontWeight: 'bold',
   },

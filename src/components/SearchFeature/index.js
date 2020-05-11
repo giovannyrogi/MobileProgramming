@@ -1,9 +1,9 @@
 import React from 'react';
-import { View, TextInput, Image, StyleSheet} from 'react-native';
+import { View, TextInput, Image, StyleSheet, FlatList, Text} from 'react-native';
 
 
-const SearchFeature = () => {
-    return(
+const SearchFeature = () => {  
+    return ( 
         <View style={styles.containerSearchBar}>
             <View style={{position: 'relative'}}>
                 <TextInput 
@@ -13,7 +13,7 @@ const SearchFeature = () => {
                 <Image source={require('../../../assets/Icon/search1.png')} style={styles.containerIconSearch}/>
             </View >
         </View>
-    )
+    );
 }
 
 export default SearchFeature;
