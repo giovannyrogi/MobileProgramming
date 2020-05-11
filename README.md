@@ -10,12 +10,13 @@
   <img src="https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/indonesiascreen.jpg" width="200" />
 </p>
 
+<br></br>
 ## API yang digunakan :
 * API Data Covid-19 Global : https://covid19.mathdro.id/api
 * API Data Covid-19 Indonesia : https://indonesia-covid-19.mathdro.id/api
 * API Data Covid-19 Indonesia Per-provinsi : https://indonesia-covid-19.mathdro.id/api/provinsi
-
 <br></br>
+
 ### Aplikasi Ini dibuat menggunakan :
 * <strong>Expo Version    : 3.20.3</strong>
 * <strong>NodeJs Version  : 12.16.1</strong>
@@ -23,6 +24,7 @@
 * <strong>Git Version     : 2.26.2 Windows 10</strong>
 * <strong>Visual Studio Code Version : 1.45.0 Windows 10</strong>
 * <strong>Dependencies    :</strong>
+
 <br></br>
 ![](https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/dependencies.png)
 <br></br>
@@ -32,7 +34,6 @@
 * <strong>Install Git :</strong> https://git-scm.com/downloads
 * <strong>Install Visual Studio Code :</strong> https://code.visualstudio.com/download
 * <strong>Install Java Development Kit :</strong> https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
-
 <code>note : Jika Sebelumnya sudah terinstall bahan-bahan ini, maka tidak perlu melakukan proses install lagi.</code>
 <br></br>
 ## Cara menjalankan Aplikasi ini :
@@ -75,7 +76,7 @@
 <br></br>
    * Jika menggunakan <i><strong>Emulator</strong></i>, pilih <i><strong>Run On Android device/emulator</strong></i>.
    * Jika menggunakan <i><strong>iOS Simulator</strong></i>, pilih <i><strong>Run On iOS simulator</strong></i>.
-   * Untuk menggunakan <i><strong>Handphone Pribadi</strong></i>, harus mendownload aplikasi <i><strong>Expo</strong></i> di <i><strong>Google Playstore</strong></i> dan melakukan <i><strong>Scan QR Code</strong></i> yang ada pada browser lewat Aplikasi <i><strong><strong>Expo</strong></i>.
+   * Untuk menggunakan <i><strong>Handphone Pribadi</strong></i>, harus mendownload aplikasi <i><strong>Expo</strong></i> di <i><strong>Google Playstore</strong></i> dan melakukan <i><strong>Scan QR Code</strong></i> yang ada pada browser lewat Aplikasi <i><strong>Expo</strong></i>.
 
 * Setelah memilih salah satu Platform, tunggu proses bundle javascript selesai dan program akan terbuka pada Platform yang dipilih. Saya menggunakan <i><strong>Emulator Android</strong></i> yang diinstall lewat <i><strong>Android Studio</strong></i>
 <br></br>
