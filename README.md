@@ -1,5 +1,16 @@
 # Aplikasi Untuk Menampilkan Data Covid-19 Global dan Indonesia.
 
+### User Interface Aplikasi : 
+
+  Splash Screen, Halaman Utama, Halaman Global, Halaman Indonesia.
+<p float="left">
+  <img src="https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/splashscreen.jpg" width="200"/>
+  <img src="https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/homescreen.jpg" width="200" /> 
+  <img src="https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/globalscreen.jpg" width="200" />
+  <img src="https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/indonesiascreen.jpg" width="200" />
+</p>
+
+<br></br>
 ### Aplikasi Ini dibuat menggunakan :
 * <strong>Expo Version    : 3.20.3</strong>
 * <strong>NodeJs Version  : 12.16.1</strong>
