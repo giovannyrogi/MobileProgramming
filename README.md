@@ -5,6 +5,7 @@
 * NodeJs Version  : 12.16.1
 * NPM Version     : 6.13.4
 * Git Version     : 2.26.2 Windows 10
+* Visual Studio Code Version : 1.45.0 Windows 10
 * Dependencies    :
 <br></br>
 ![](https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/dependencies.png)
@@ -13,6 +14,7 @@
 * Install NodeJs  : https://nodejs.org/en/
 * Install Expo pada <i><strong>Command Prompt</strong></i> dengan perintah : <code>npm install expo-cli --global</code>
 * Install Git : https://git-scm.com/downloads
+* Install Visual Studio Code : https://code.visualstudio.com/download
 * Install Java Development Kit : https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
 
 <code>note : Jika Sebelumnya sudah terinstall bahan-bahan ini, maka tidak perlu melakukan proses install lagi.</code>
