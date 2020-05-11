@@ -1,9 +1,9 @@
-# Aplikasi Untuk Menampilkan Data Covid-19 Global dan Indonesia.
+## Aplikasi Untuk Menampilkan Data Covid-19 Global dan Indonesia.
+<br></br>
+## User Interface Aplikasi : 
 
-### User Interface Aplikasi : 
-
-  Splash Screen, Halaman Utama, Halaman Global, Halaman Indonesia.
-<p float="left">
+  Splash Screen, Halaman Utama, Halaman Global dan Halaman Indonesia.
+<p float="center">
   <img src="https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/splashscreen.jpg" width="200"/>
   <img src="https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/homescreen.jpg" width="200" /> 
   <img src="https://github.com/giovannyrogi/MobileProgramming/blob/master/Instruksi_png/globalscreen.jpg" width="200" />
