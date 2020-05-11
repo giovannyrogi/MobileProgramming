@@ -12,6 +12,7 @@
 * Install NodeJs  : https://nodejs.org/en/
 * Install Expo pada <i><strong>Command Prompt</strong></i> dengan perintah : <code>npm install expo-cli --global</code>
 * Install Git : https://git-scm.com/downloads
+* Install Java Development Kit : https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
 
 <code>note : Jika Sebelumnya sudah terinstall bahan-bahan ini, maka tidak perlu melakukan proses install lagi.</code>
 <br></br>
