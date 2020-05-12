@@ -34,6 +34,7 @@
 * <strong>Install Git :</strong> https://git-scm.com/downloads
 * <strong>Install Visual Studio Code :</strong> https://code.visualstudio.com/download
 * <strong>Install Java Development Kit :</strong> https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
+<br></br>
 <code>note : Jika Sebelumnya sudah terinstall bahan-bahan ini, maka tidak perlu melakukan proses install lagi.</code>
 <br></br>
 ## Cara menjalankan Aplikasi ini :
